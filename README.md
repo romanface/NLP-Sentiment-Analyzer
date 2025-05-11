@@ -32,9 +32,7 @@ It performs **sentiment analysis** of English-language book reviews from Amazon,
   
 #How to Run
 
-1. Install required packages:
-```bash
-pip install -r requirements.txt
+1. Install required packages: bash pip install -r requirements.txt
 2. Train the model (optional, already done): python train_and_save_model.py
 3. Start the web server: python app.py
 4. Open browser: http://127.0.0.1:5000/
