@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import joblib
 
-# Загрузка модели и векторизатора
+# Loading the model and vectorizer
 model = joblib.load("sentiment_model.joblib")
 vectorizer = joblib.load("tfidf_vectorizer.joblib")
 
